@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Stomp_dart</title>
+    <link rel="stylesheet" href="stomp_dart.css">
+  </head>
+  <body>    
+    <h1 id="qunit-header">Stomp Over Web Socket</h1>
+    <section>
+      <p>Tests requires that a Stomp Server accepting WebSocket protocol is running with the configuration:</p>
+      <ul>
+        <li>URL: <span id="test_url"></span>
+        <li>Destination: <span id="test_destination"></span>
+        <li>User: <span id="test_login"></span> /  <span id="test_password"></span>
+      </ul>
+      <p>These values can be configured in <a href="test/TestConfig.dart">test/TestConfig.dart</a>
+    </section>
+
+    <script type="application/dart" src="web/stomp_dart.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>

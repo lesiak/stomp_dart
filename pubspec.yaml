@@ -1,0 +1,5 @@
+name:  stomp_dart
+description:  A sample application
+dependencies: 
+  unittest: any
+  browser: any
